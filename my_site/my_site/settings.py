@@ -132,3 +132,16 @@ DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 MEDIA_ROOT = BASE_DIR / "uploads"
 
 MEDIA_URL = "/files/"
+
+# AWS_STORAGE_BUCKET_NAME = "<your-s3-bucketname>"
+# AWS_S3_REGION_NAME = "<your-s3-bucket-region>"
+# AWS_ACCESS_KEY_ID = "<your-aws-access-key-id>"
+# AWS_SECRET_ACCESS_KEY = "<your-aws-secret-access-key>"
+
+# AWS_S3_CUSTOM_DOMAIN = f"{AWS_STORAGE_BUCKET_NAME}.s3.amazonaws.com"
+
+# STATICFILES_FOLDER = "static"
+# MEDIAFILES_FOLDER = "media"
+
+# STATICFILES_STORAGE = "custom_storages.StaticFileStorage"
+# DEFAULT_FILE_STORAGE = "custom_storages.MediaFileStorage"
